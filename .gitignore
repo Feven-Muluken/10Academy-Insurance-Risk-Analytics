@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+venv/
+.env/
+.venv/
+.envrc
+*.lock
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/*
+!data/.gitkeep
+
+# DVC cache
+.dvc/
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Logs
+logs/
+*.log
