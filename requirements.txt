@@ -1,4 +1,9 @@
-pandas
+scikit-learn
+xgboost
+shap
+joblib
+statsmodels
 matplotlib
 seaborn
-dvc
+pandas
+numpy
