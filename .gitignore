@@ -7,7 +7,7 @@ venv/
 .env/
 .venv/
 .envrc
-*.lock
+# *.lock
 
 # Jupyter
 .ipynb_checkpoints/
@@ -30,3 +30,19 @@ Thumbs.db
 # Logs
 logs/
 *.log
+
+
+# Data files tracked by DVC
+data/raw/*.txt
+data/raw/*.csv
+
+# Python & Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.env
+.venv
+*.pyc
+
+# VSCode
+.vscode/
+
